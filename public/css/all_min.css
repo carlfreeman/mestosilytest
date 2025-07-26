@@ -1,0 +1,38 @@
+/* Font Awesome - Only needed components */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url('../fonts/fa-solid-900.woff2') format('woff2');
+}
+
+/* Solid Icons */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url('../fonts/fa-solid-900.woff2') format('woff2');
+}
+.fas {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+.fa-map-marker-alt:before {
+  content: "\f3c5";
+}
+.fa-phone:before {
+  content: "\f095";
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+/* Only include icons you actually use */
+.fa-home:before { content: "\f015"; }
+.fa-user:before { content: "\f007"; }
+.fa-envelope:before { content: "\f0e0"; }
