@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Место Силы</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/all_min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Место Силы</h1>
+        </div>
+    </section>
+
+    <section class="info-section" id="info">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; text-align: center; margin-bottom: 20px; color: var(--primary);">Наш уютный дом</h2>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/house2.jpg" alt="Гостиная" class="gallery-image">
+                    <div class="gallery-caption">
+                        <h3>Просторная гостиная</h3>
+                        <p>Уютное пространство для отдыха с камином и панорамными окнами</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="images/house3.jpg" alt="Спальня" class="gallery-image">
+                    <div class="gallery-caption">
+                        <h3>Комфортные спальни</h3>
+                        <p>Просторные комнаты с качественной мебелью и натуральными материалами</p>
+                        <p>Просторные комнаты с качественной мебелью и натуральными материалами</p>
+                        <p>Просторные комнаты с качественной мебелью и натуральными материалами</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="images/lawn.jpg" alt="Терраса" class="gallery-image">
+                    <div class="gallery-caption">
+                        <h3>Видовая терраса</h3>
+                        <p>Просторная терраса с видом на природу - идеальное место для утреннего кофе</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="callme" id="callme">
+        <div class="container">
+            <h2>Мы с Вами свяжемся</h2>
+            <form id="callme-form" class="callme-form needs-validation" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Имя*</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone" class="form-label">Телефон*</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message" class="form-label">Сообщение</label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                <input type="text" name="honeypot" style="display:none !important;">
+                <div class="form-text">Максимум 500 символов</div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary" id="submit-btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 >Контакты</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>+7 (123) 456-78-90</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>example@placesila.ru</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://yandex.ru/maps/-/CHTHIVjo" target="__blank"><span>Россия, г.Таруса, ул.Окская, 15</span></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Часы работы</h3>
+                    <p>Круглогодично</p>
+                </div>
+                <div class="footer-section" style="width: 10vw; text-align: center;">
+                    <img src="images/logo.png" alt="Logo" style="width: 10vw; align-self: center;">
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copr. 2025 Mark Litvak</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
