@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 const path = require('path');
 
 const app = express();
-const PORT = PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 // Настройки защиты от спама
 const SPAM_PROTECTION = {
