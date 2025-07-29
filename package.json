@@ -2,10 +2,10 @@
   "name": "mesto-sily",
   "version": "1.0.0",
   "description": "Сайт для места силы",
-  "main": "server/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
