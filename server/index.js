@@ -34,7 +34,7 @@ setInterval(() => {
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, './public')));
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Настройка почтового клиента
 const transporter = nodemailer.createTransport({
@@ -173,7 +173,7 @@ app.post('/api/contact', async (req, res) => {
 
 // Остальные маршруты
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, './public', 'index.html'));
+  res.sendFile(path.join(__dirname, '../public', 'index.html'));
 });
 
 app.listen(PORT, () => {
